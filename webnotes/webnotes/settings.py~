@@ -13,7 +13,7 @@ MANAGERS = ADMINS
 
 import dj_database_url
 DATABASES = {
-'default' dj_database_url.config(
+'default':dj_database_url.config(
 default="sqlite://webnotes.db")
 }
 
